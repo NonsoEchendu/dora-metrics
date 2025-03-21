@@ -61,12 +61,12 @@ Create a `.env` file based on `.env.example` with the following variables:
 
 
 GitHub Configuration
+
+```
 GITHUB_TOKEN=your_github_personal_access_token
 GITHUB_REPOSITORIES=[{"owner":"username","repo":"frontend"},{"owner":"username","repo":"backend"}]
-Server Configuration
 PORT=8000
-UPDATE_INTERVAL_HOURS=1
-
+```
 
 
 ### GitHub Token Permissions
